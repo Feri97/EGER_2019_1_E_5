@@ -2,8 +2,10 @@ Demó project
 Követelményspecifikáció
 
 1. Bevezetés
-
+ -Javascript alapú labirintus játék elkészitése 
 2. Jelenlegi helyzet
+
+
 
 3. Jelenlegi üzleti folyamatok modellje
 
