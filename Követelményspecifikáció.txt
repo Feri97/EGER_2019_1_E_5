@@ -1,0 +1,10 @@
+Demó project
+Követelményspecifikáció
+
+1. Bevezetés
+
+2. Jelenlegi helyzet
+
+3. Jelenlegi üzleti folyamatok modellje
+
+4. Igényelt üzleti folyamatok modellje
