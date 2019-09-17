@@ -2,7 +2,7 @@ Demó project
 Követelményspecifikáció
 
 1. Bevezetés
- -Javascript alapú labirintus játék elkészitése. 
+Egy olyan weboldal elkészitése ami, egy labirintus játékot tartalmaz.
 2. Jelenlegi helyzet
 
 
