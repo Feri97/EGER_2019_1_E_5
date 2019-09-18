@@ -1,12 +1,11 @@
-Demó project
+﻿Demó project
 Követelményspecifikáció
 
 1. Bevezetés
 Egy olyan weboldal elkészitése ami, egy labirintus játékot tartalmaz.
+
 2. Jelenlegi helyzet
+Jelenleg kevés koncentrációt javító játék van a piacon. Célunk az, hogy egy olyan szórakoztató és egyben készségfejlesztő alkalmazást készítsünk, mely akár a stresszhelyzetekben való teljesítő képesség fejlődését is elősegítheti. 
 
 
-
-3. Jelenlegi üzleti folyamatok modellje
-
-4. Igényelt üzleti folyamatok modellje
+3. Vágyálom rendszer
