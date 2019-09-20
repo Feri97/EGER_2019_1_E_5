@@ -2,7 +2,14 @@
 Követelményspecifikáció
 
 1. Bevezetés
-Egy olyan weboldal elkészitése ami, egy labirintus játékot tartalmaz.
+Az emberekkel gyakran előfordul, hogy jelenleg végzett feladataikkal 
+nem haladnak, és nem tudnak el jutni 1-ről a 2-re. Legyen szó fizikai
+vagy mentális munkáról, tanulásról vagy sportolásról, közbe szoktak jönni
+olyan dolgok ami miatt elveszitik a koncetrációjukat, és nem tudnak haladni az
+éppem végzett aktuális feladatukkal. Ilyenkor a legtöbben, hogy kizökkenjenek egy kicsit a 
+megszokott dolgokból remélvén ezután újra tudnak koncetrálni, felmennek az internetre.
+Okostelefonon vagy PC-n keresztül, az interneten megannyi lehetőség között
+lehet válogatni. 
 
 2. Jelenlegi helyzet
 Jelenleg kevés koncentrációt javító játék van a piacon. Célunk az, 
