@@ -5,7 +5,15 @@ Követelményspecifikáció
 Egy olyan weboldal elkészitése ami, egy labirintus játékot tartalmaz.
 
 2. Jelenlegi helyzet
-Jelenleg kevés koncentrációt javító játék van a piacon. Célunk az, hogy egy olyan szórakoztató és egyben készségfejlesztő alkalmazást készítsünk, mely akár a stresszhelyzetekben való teljesítő képesség fejlődését is elősegítheti. 
+Jelenleg kevés koncentrációt javító játék van a piacon. Célunk az, 
+hogy egy olyan szórakoztató és egyben készségfejlesztő alkalmazást készítsünk, 
+mely akár a stresszhelyzetekben való teljesítő képesség fejlődését is elősegítheti. 
+Figyelembe kell vennünk a konkurens cégek ajánlatait és az általuk kínált lehetőségeket.
+Manapság az informatika rohamos fejlődésének köszönhetően a fiatalabb generáció 
+könnyebben használja a technológia álltal nyújtott szolgáltatásokat, 
+de ettől független sokaknak még nehézséget okozhat. 
+Törekednünk kell a minél felhasználó barátabb kezelőfelületre, 
+hogy versenyképesek legyünk és meggyőzzük vevőinket arról, hogy ők a legfontosabbak. 
 
 
 3. Vágyálom rendszer
