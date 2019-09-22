@@ -11,8 +11,10 @@ megszokott dolgokból remélvén ezután újra tudnak koncetrálni, felmennek az
 Okostelefonon vagy PC-n keresztül, az interneten megannyi lehetőség között
 lehet válogatni,amivel kikapcsolódhat egy időre az emberi agy. Például, elolvassák a különböző
 hiroldalokon mi történik a nagyvilágban, vagy csekolják ismerőseink bejegyzéseiket és megosztásaikat
-a közösségi oldalakon, vagy csak vicces videókat néznek a különböző videómegosztókon. 
-Vagy elkezdenek játszani valami apróbb online vagy mobilokon elérhető játékokkal.
+a közösségi oldalakon, vagy csak vicces videókat néznek a különböző videómegosztókon.vagy 
+elkezdenek játszani valami apróbb online vagy mobilokon is elérhető játékokkal. A mi célunk éppen
+az utóbiakk, azaz a játékokkal való kikapcsolódók megcélzása olyan alkalmazás(ok)al amik segitenek
+a koncetrációt javitani, ezáltal jobb odafigyelést és kitartást a későbbi feladatokhoz.
 
 2. Jelenlegi helyzet
 Jelenleg kevés koncentrációt javító játék van a piacon. Célunk az, 
@@ -24,6 +26,16 @@ könnyebben használja a technológia álltal nyújtott szolgáltatásokat,
 de ettől független sokaknak még nehézséget okozhat. 
 Törekednünk kell a minél felhasználó barátabb kezelőfelületre, 
 hogy versenyképesek legyünk és meggyőzzük vevőinket arról, hogy ők a legfontosabbak. 
-
+Úgy látjuk, hogy egy labirintus illetve egy mastermind nevű játék sokat javithat
+az emberek koncetrációján. A labirintust nem kell senkinek sem bemutattni, gondolom
+már mindenki találkozott vele valamilyen formában. Az interneten fellelhetők viszont eléggé
+monotonok, ugyanis mindig ugyanazt a pályát kell végig vinni újra és újra. 
+Emiatt a felhasználók hamar bele unnak és átváltanak valami más tevékenységre. Ráadásul a legtöbb 
+online labirintusban nincs meg az érintőképernyős/egér kattintásos vezérlés abban az esetben ha nem érhető el billenytűzet.
+Illetve a legtöbb ilyenben egy egyszerű 3d-s vagy 2d-s objektumot kell irányitani, ami egyeseknek nem lehet eléggé 
+figyelem felkeltő. A másik koncentráció játék, az a mastermind lenne. Ilyen tipusu játékból nem sok található interneten, 
+úgy mondhatni hiánypotló lehet. Mastermind lényege, hogy adott egy tetszőleges jegyű számot kell 
+kitalálni adott számú alkalom alatt.A játékos annyi segitséget kap, hogy láthatja hány szám van jó helyen,
+illetve azt hogy bár a szám szerepel a sorozatban, mégis rossz helyen van. 
 
 3. Vágyálom rendszer
