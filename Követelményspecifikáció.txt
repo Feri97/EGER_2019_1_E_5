@@ -39,3 +39,13 @@ kitalálni adott számú alkalom alatt.A játékos annyi segitséget kap, hogy l
 illetve azt hogy bár a szám szerepel a sorozatban, mégis rossz helyen van. 
 
 3. Vágyálom rendszer
+Az alkalmazások életciklusában elengedhetetlen szerepet tölt be a fejlesztés, hogy a
+felhasználók számára egy könnyen kezelhető programot hozhassunk létre. Esetleges
+hibák megelőzése, kijavítása nagyon fontos, hiszen tökéletes program nincs. A hibák és a
+technológia fejlődésével folyamatos fejlesztésre szorul alkalmazásunk. Egy okostelefonon
+keresztül is használható több pályás labirintus játékot és egy fejtörő, szám kitalálós játékot
+szeretnénk létrehozni. Fontosnak tartjuk, hogy a programunk fejlődésének köszönhetően
+felhasználóink jobban kitudjanak kapcsolódni és a koncentrációs képességük fejlődjön. Konkrét
+célunk a labirintus játékunkhoz a jövőben időzítő hozzáadása, scoreboard hozzáadása ami elmenti
+a játékosok pontszámát, több pálya hozzáadása, azok növelése és vizuális fejlesztése.
+Mastermind nevű játékhoz időzítőt és további nehézségi fokozatok hozzáadását tervezzük.
