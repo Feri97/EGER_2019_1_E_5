@@ -1,0 +1,26 @@
+Funkcionális specifikáció
+
+1. Áttekintés
+
+2. A rendszer funkciói
+	Kliensoldal
+		Követelmény1
+		...
+		Követelmény n
+
+	Szerveroldal
+		Követelmény1
+		...
+		Követelmény n
+
+3. Nem funkcionális követelmények
+
+4. Interfészek
+	Felhasználói interfész (GUI) terv 
+	Egyéb interfészek (hardver, szoftver, kommunikációs) leírása
+
+5. Az alkalmazás mûködésének áttekintése
+	Kliensoldal
+	Szerveroldal
+
+6. Dizájn terv
