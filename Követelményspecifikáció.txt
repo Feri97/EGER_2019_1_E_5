@@ -48,4 +48,4 @@ szeretnénk létrehozni. Fontosnak tartjuk, hogy a programunk fejlődésének k�
 felhasználóink jobban kitudjanak kapcsolódni és a koncentrációs képességük fejlődjön. Konkrét
 célunk a labirintus játékunkhoz a jövőben időzítő hozzáadása, scoreboard hozzáadása ami elmenti
 a játékosok pontszámát, több pálya hozzáadása, azok növelése és vizuális fejlesztése.
-Mastermind nevű játékhoz időzítőt és további nehézségi fokozatok hozzáadását tervezzük.
+Mastermind nevű játékhoz időzítő hozzáadását tervezzük.
