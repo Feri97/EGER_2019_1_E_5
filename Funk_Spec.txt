@@ -1,17 +1,24 @@
 Funkcionális specifikáció
 
 1. Áttekintés
+Jelenleg kevés olyan játék van a piacon,amely  koncentrációt javítana és egyben szórakoztatna is. 
+Célunk ezért olyan szórakoztató és egyben készségfejlesztõ alkalmazás elkészítése, amely képes 
+a stresszhelyzetekben való teljesítõ képesség fejlõdésének elõsegítésében, illetve képes
+a koncentráció javitásában. Erre olyan alkalmazást szeretnénk fejleszteni, ami tartalmaz egy labirintus
+és egy mastermind játékot. Azért esett erre két játékra választás ugyanis úgy gondoljuk ezek tudják fejleszteni
+azokat készségeket amiket a bevezetés elején emlitettünk.
 
 2. A rendszer funkciói
-	Kliensoldal
-		Követelmény1
-		...
-		Követelmény n
-
-	Szerveroldal
-		Követelmény1
-		...
-		Követelmény n
+Alkamazásunkhoz szoftveres szinten,operációs rendszertõl függetlenül fut, 
+és csak egy html 5-öt és javascript-et támogató webböngészõ szükséges. Hardveres szinten 
+pedig bármi olyan eszköz ami képes, a fent emlitett szoftveres körülményt képes biztositani. 
+Az alkalmazásunk -ahogy már korábban emlitettük- javascript-en és html-en alapszik, illetve 
+a design miatt tartalmaz css-t is. Ezek mind külön fájlban találhatók, a könnyen kezelhetõség és
+az átláthatóság miatt. Az elsõ játékban figuránkat a hangyát kell végigvezetni egy szellözõcsõ 
+labirintuson aminek a végén egy széf található. Ha elértük a széfet akkor választhatunk, 
+maradunk a labirintusnál vagy atmehetünk a következõ játékra a mastermind-ra. A mastermind-ban
+egy négy jegyû számot kell kitalálni 1 perc alatt. A játékos annyi segitséget kap hogy, 
+próbálkozásonkét mennyi számjegy van jó helyen, illetve rossz helyen.  	
 
 3. Nem funkcionális követelmények
 
@@ -20,7 +27,23 @@ Funkcionális specifikáció
 	Egyéb interfészek (hardver, szoftver, kommunikációs) leírása
 
 5. Az alkalmazás mûködésének áttekintése
-	Kliensoldal
-	Szerveroldal
-
+Az alkalmazás a klienseken fut, nem kell hozzá semmiféle szerver oldali erõforrás.
+A kezdõoldalon lehetõségünk van kiválasztani melyik játékkal szeretnénk játszani.
+A labirintus játékban, karakterünket a hangyát több féle módon lehet irányitani.
+Az egyik mód billenytûzetes irányitás,ebben az esetben a W,A,S,D gombok lenyomásával
+lehet irányitani, a másik mód pedig a képernyõn megjelenõ gombok segitségel lehet. Mindig
+csak azok a gombok jellenek meg, amerre jelenleg lehet mozgatni a karaktert. Ha karakterünk
+elért a labirintus végére, akkor megjelenik egy figyelmeztetés és itt lehetõség van választani
+aközött, hogy újra végig visszük a labirintust vagy átmegyünk a mastermind-ra. Ha maradunk a 
+a labirintusnál, akkor az oldalt újra tölt, de akkor már egy másik labirintus jelenik meg.
+Ez azért van mert minden újboli oldalbetöltésnél, új labirintus generálódik le. Ha viszont
+az átmenést választjuk a mastermind-ra, akkor az oldal automatikusan átirányit minket annak
+oldalára. Mastermind-nál egy 4 jegyü számot kell kitalálni 1 perc alatt. A számjegyeket 4
+különbözõ mezõbe kell irni, amint beirtuk a számot, máris ugrik a következõ mezõre. Minden
+mezõben csak egy számot lehet irni és amint az elsõ cellába irunk, elindul a visszaszámlás.
+Miután megadtuk a tippünket, a mezõ mellett lévõ gombra kattintva küldhetjük el a scriptnek,
+ami kielemzi az adott tippet. Az elemzés eredményét a mezõ felett lévõ dobozban láthatjuk,
+ami kiirja, hogy mit adtunk meg tipnek és, hogy ebbõl mennyi van jó helyen, és hogy mennyi 
+van rossz helyen, ha szám szerepel a kitalálandó számbam. Ha letelt a visszaszámlálás akkor 
+megjelenik egy értesités, és kezdhetjük újra az egészet. 
 6. Dizájn terv
