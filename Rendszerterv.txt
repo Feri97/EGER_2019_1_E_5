@@ -21,7 +21,7 @@ Funkcionáis követelmények:
 
 -Támogatott platformok: Windows, Mac és Linux PC-k
 -Nincsenek vásárolt komponensek
--Fejlesztői eszközök: notepad++
+-Fejlesztői eszközök: Visual Studio Code
 
 7, Absztrakt modell
 
