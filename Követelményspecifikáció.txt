@@ -49,3 +49,6 @@ felhasználóink jobban kitudjanak kapcsolódni és a koncentrációs képesség
 célunk a labirintus játékunkhoz a jövőben időzítő hozzáadása, scoreboard hozzáadása ami elmenti
 a játékosok pontszámát, több pálya hozzáadása, azok növelése és vizuális fejlesztése.
 Mastermind nevű játékhoz időzítő hozzáadását tervezzük.
+
+4.Jelenlegi üzleti folyamatok
+5.Igényelt üzleti folyamatok
