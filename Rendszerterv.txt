@@ -1,0 +1,38 @@
+Rendszerterv
+
+1, A rendszer célja
+
+Egy készségfejlesztő és szórakoztató alkalmazás fejlesztése, amely a stresszhelyzetekben való teljesítőképességet javítja. 2 játékot tartalmaz melyek külön külön is indíthatóak, egy labirintus és egy mastermind játék. A labirintus teljesítése esetén automatikusan elindul a mastermind játék.
+
+2, Projektterv (low prio)
+
+3, Üzleti folyamatok modellje
+
+4, Követelmények
+
+Funkcionáis követelmények:
+-Átlátható kezelőfelület
+-Egyszerű irányítás
+
+
+5, Funkcionális terv
+
+6, Fizikai környezet
+
+-Támogatott platformok: Windows, Mac és Linux PC-k
+-Nincsenek vásárolt komponensek
+-Fejlesztői eszközök: Visual Studio Code
+
+7, Absztrakt modell
+
+8, Architekturális terv
+
+9, Adatbázis terv
+
+10, Implementációs terv
+
+11, Tesztterv
+
+12, Telepítési terv (low prio)
+
+13, Karbantartási terv (low prio)
