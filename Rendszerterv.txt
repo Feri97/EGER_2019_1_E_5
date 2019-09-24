@@ -19,7 +19,7 @@ Funkcionáis követelmények:
 
 6, Fizikai környezet
 
--Támogatott platformok: Windows, Mac és Linux PC-k
+-Támogatott platformok: Windows PC
 -Nincsenek vásárolt komponensek
 -Fejlesztői eszközök: Visual Studio Code
 
