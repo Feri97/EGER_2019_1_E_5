@@ -8,25 +8,17 @@ a koncentráció javitásában. Erre olyan alkalmazást szeretnénk fejleszteni, ami t
 és egy mastermind játékot. Azért esett erre két játékra választás ugyanis úgy gondoljuk ezek tudják fejleszteni
 azokat készségeket amiket a bevezetés elején emlitettünk.
 
-2. A rendszer funkciói
-Alkamazásunkhoz szoftveres szinten,operációs rendszertõl függetlenül fut, 
-és csak egy html 5-öt és javascript-et támogató webböngészõ szükséges. Hardveres szinten 
-pedig bármi olyan eszköz ami képes, a fent emlitett szoftveres körülményt képes biztositani. 
-Az alkalmazásunk -ahogy már korábban emlitettük- javascript-en és html-en alapszik, illetve 
-a design miatt tartalmaz css-t is. Ezek mind külön fájlban találhatók, a könnyen kezelhetõség és
-az átláthatóság miatt. Az elsõ játékban figuránkat a hangyát kell végigvezetni egy szellözõcsõ 
-labirintuson aminek a végén egy széf található. Ha elértük a széfet akkor választhatunk, 
-maradunk a labirintusnál vagy atmehetünk a következõ játékra a mastermind-ra. A mastermind-ban
-egy négy jegyû számot kell kitalálni 1 perc alatt. A játékos annyi segitséget kap hogy, 
-próbálkozásonkét mennyi számjegy van jó helyen, illetve rossz helyen.  	
+2.Jelenlegi helyzet
+Labirintus játékokból jelenleg rengeteg féle megvalósitás lelhetõ fel az interneten, de ezek többsége eléggé
+monoton hatást kellt. Mindig ugyanazon a pályán kell végigmenni, ami egy idõ után könnyen kiismerhetõ lesz,
+tudják merre kell menni ahoz, kijussanak. Emiatt a felhasználó könnyen elveszti az érdeklõdést a játék iránt, 
+ugyanis nem talál benne kihivást és tovább lép valami másra. Ezért a célunk, egy olyan labirintus játék fejlesztése,
+ami minden elinditásnál, különbozõ pályával fogadja a felhasználókat, ezáltal fenntartva az érdeklõdést a játék iránt.
+A mastermindból a -labirintussal szemben- nem sok lelhetõ fel belõle, Ebbõl a szempontból illetve, hogy nagy jó koncetrációt
+javitó hatása van, úgy gondoljuk, hogy hiánypotló lehet e játékok terén.  
 
-3. Nem funkcionális követelmények
 
-4. Interfészek
-	Felhasználói interfész (GUI) terv 
-	Egyéb interfészek (hardver, szoftver, kommunikációs) leírása
-
-5. Az alkalmazás mûködésének áttekintése
+9. Az alkalmazás mûködésének áttekintése
 Az alkalmazás a klienseken fut, nem kell hozzá semmiféle szerver oldali erõforrás.
 A kezdõoldalon lehetõségünk van kiválasztani melyik játékkal szeretnénk játszani.
 A labirintus játékban, karakterünket a hangyát több féle módon lehet irányitani.
@@ -46,4 +38,3 @@ ami kielemzi az adott tippet. Az elemzés eredményét a mezõ felett lévõ dobozban 
 ami kiirja, hogy mit adtunk meg tipnek és, hogy ebbõl mennyi van jó helyen, és hogy mennyi 
 van rossz helyen, ha szám szerepel a kitalálandó számbam. Ha letelt a visszaszámlálás akkor 
 megjelenik egy értesités, és kezdhetjük újra az egészet. 
-6. Dizájn terv
