@@ -34,6 +34,8 @@ futtathatóság terén, illetve eléggé monotonnak hatnak a feladatok terén. Legtöbb
 5. Igényelt üzleti folyamatok
 Olyan 
 
+7.Képernyõ terv
+KepernyoTerv.png
 
 9. Forgatókönyv
 Az alkalmazás a klienseken fut, nem kell hozzá semmiféle szerver oldali erõforrás.
