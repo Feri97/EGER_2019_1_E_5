@@ -47,8 +47,44 @@ Kezdõoldal 	-> Labirintus -> célba érve 	-> Mastermind
 
 Labirintus<->Mastermind<->Kezdõoldal<->Labirintus //minden elérhetõ mindenhonnan
 
-7.Képernyõ terv
+6. Követelménylista
+ Funkcionális követelmények
+        k1:labirintus:
+		Olyan labirintus ami javascripten alapszik és minden betöltésnél más pályával fogadja a felhasználót.
+	
+	k2:felületi vezérlés:
+		A felületen megjelenõ gombok amikkel lehet irányitani a karaktert a labirintusban. Mindig csak azok a 
+		gombok jelennek meg amerre a karakter tud menni.
+	
+	k3:home gomb:
+		Vissza visz a kezdõoldalra.
+
+	k4:mastermind:
+		Javascript játék ahol egy 4 jegyû számot kell kitalálni 1 perc vagy 16 alkalom alatt.
+	
+	k5:segitõdoboz:
+		Segit a mastermindban, mégpedig abban, hogy mennyi szám van jó helyen illetve ha szerepel a szám, de rossz
+		helyen van akkor azt is kiirja.	
+	
+	k6:visszaszámláló:
+		Jelzi, mennyi idõ maradt hátra a mastermind megoldására.
+
+	k7:átirányitás:
+		Ha egyik játéknak végére értünk, lehet választani, hogy maradunk az adott játéknál és újra kezdjük, vagy
+		átmegyünk a másik oldalra. Utóbbi esetében átirányit a másik játékra, attól függ, hogy hol vagyunk.
+
+ Nem funkcionális követelmények
+	k8:design:
+		CSS-en alapuló design. Felhasznóló barát, jól elkülöniti a különbözõ dolgokat.
+	
+	k9:oldal:
+		HTML oldalak amik tartalmazzák a játékokat.		
+		
+
+7. Képernyõ terv
 KepernyoTerv.png
+
+8. Használati esetek
 
 9. Forgatókönyv
 Az alkalmazás a klienseken fut, nem kell hozzá semmiféle szerver oldali erõforrás.
