@@ -17,6 +17,8 @@ ami minden elinditásnál, különbozõ pályával fogadja a felhasználókat, ezáltal fe
 A mastermindból a -labirintussal szemben- nem sok lelhetõ fel belõle, Ebbõl a szempontból illetve, hogy nagy jó koncetrációt
 javitó hatása van, úgy gondoljuk, hogy hiánypotló lehet e játékok terén.  
 
+7. Képernyõterv
+KepernyoTerv.png
 
 9. Az alkalmazás mûködésének áttekintése
 Az alkalmazás a klienseken fut, nem kell hozzá semmiféle szerver oldali erõforrás.
