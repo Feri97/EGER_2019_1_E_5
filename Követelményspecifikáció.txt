@@ -49,3 +49,6 @@ felhasználóink jobban kitudjanak kapcsolódni és a koncentrációs képesség
 célunk a labirintus játékunkhoz a jövőben időzítő hozzáadása, scoreboard hozzáadása ami elmenti
 a játékosok pontszámát, több pálya hozzáadása, azok növelése és vizuális fejlesztése.
 Mastermind nevű játékhoz időzítő hozzáadását tervezzük.
+
+4. Jelenlegi üzleti folyamatok
+A mai világban nem használjuk ki a már meglévő technológiákat arra, hogy a tanulást és a készségeink fejlesztését sokkal szórakoztatóbbá és interaktívabbá tegyük. A jelenlegi világban a fiatalok egyre kevésbé hajlandóak a "klasszikus" módon tanulni, ezért  alternatív módszereket kell keresnünk. Jelenleg a gyermekek rengeteg játék segítségével és esetleg papíron gyakorolnak logikai feladatokat, amely a XXI. században elavultnak számít. Ez rengeteg plusz költséget jelent, mely elkerülhető lenne. Az oktatóknak rengeteg időt elvesz az idejéből az, hogy mindenkire külön figyeljenek és segítsék. Illetve a feladatok megoldása papíron is sokkal időigényesebb, mintha különböző alkalmazásokat használnának a gyerekek. Mindezt összevetve a feladatok digitális formában időt, pénzt és energiát spórolnak meg.
