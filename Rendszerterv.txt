@@ -6,6 +6,14 @@ Egy készségfejlesztő és szórakoztató alkalmazás fejlesztése, amely a str
 
 2, Projektterv (low prio)
 
+	Dátum		Tevékenység						Résztvevő(k)
+	
+2019.09.17.-24	Dokumentációk elkészítése és véglegesítése
+2019.09.24.	Fejlesztése megkezdése
+2019.09.29.	Alpha teszt
+2019.09.30.	Béta teszt
+2019.10.01.	Projekt átadása						A projektben résztvevő összes szereplő
+
 3, Üzleti folyamatok modellje
 
 4, Követelmények
