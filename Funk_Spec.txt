@@ -17,8 +17,25 @@ ami minden elinditásnál, különbozõ pályával fogadja a felhasználókat, ezáltal fe
 A mastermindból a -labirintussal szemben- nem sok lelhetõ fel belõle, Ebbõl a szempontból illetve, hogy nagy jó koncetrációt
 javitó hatása van, úgy gondoljuk, hogy hiánypotló lehet e játékok terén.  
 
+3.Vágyálomrendszer
+Alkalmazás felépitése egyszerû. Amint betöltõdik, egy kezdõ oldal fogadja a felhasználót, ahol ki tudja választani,
+melyik játékkal kezd. A labirintust választva, átirányit a labirintus felületére, ahol maga a cimszereplõ játék található.
+Ha a játék végére ér a felhasználó választhat, hogy marad itt, vagy ha nem, akkor automatikusan tovább lesz irányitva a mastermindra.
+A mastermindot -ahogy a labirintust- szintén a fõoldalról lehet elérni. A játékban egy adott jegyü számott kell kitalálni egy bizonyos
+idõ vagy adott számu alkalom alatt. Ha ez sikerül a felhasználó nyert,ha viszont elfogyott az idõ vagy a próbálkozási lehetõség,
+akkor a felhasználó vesztett. Mindkétt lehetõség esetén
 
-9. Az alkalmazás mûködésének áttekintése
+4. Jelenlegi üzleti folyamatok
+A jelenleg ismert koncentrációt javitó módszerek bár hatásosak, mégis elavultnak hatnak, ugyanis a legtöbjük 
+nem használják ki a technológia nyujtotta lehetõségeket. Ha van is ami kihasználja, azok nem tünnek univerzálisnak
+futtathatóság terén, illetve eléggé monotonnak hatnak a feladatok terén. Legtöbbször ugyanis ugyanazt a feladatott kell végrehajtani
+újra és újra, ami egy idõ után elriasztja azt a használójától. 
+
+5. Igényelt üzleti folyamatok
+Olyan 
+
+
+9. Forgatókönyv
 Az alkalmazás a klienseken fut, nem kell hozzá semmiféle szerver oldali erõforrás.
 A kezdõoldalon lehetõségünk van kiválasztani melyik játékkal szeretnénk játszani.
 A labirintus játékban, karakterünket a hangyát több féle módon lehet irányitani.
