@@ -52,3 +52,22 @@ Mastermind nevű játékhoz időzítő hozzáadását tervezzük.
 
 4. Jelenlegi üzleti folyamatok
 A mai világban nem használjuk ki a már meglévő technológiákat arra, hogy a tanulást és a készségeink fejlesztését sokkal szórakoztatóbbá és interaktívabbá tegyük. A jelenlegi világban a fiatalok egyre kevésbé hajlandóak a "klasszikus" módon tanulni, ezért  alternatív módszereket kell keresnünk. Jelenleg a gyermekek rengeteg játék segítségével és esetleg papíron gyakorolnak logikai feladatokat, amely a XXI. században elavultnak számít. Ez rengeteg plusz költséget jelent, mely elkerülhető lenne. Az oktatóknak rengeteg időt elvesz az idejéből az, hogy mindenkire külön figyeljenek és segítsék. Illetve a feladatok megoldása papíron is sokkal időigényesebb, mintha különböző alkalmazásokat használnának a gyerekek. Mindezt összevetve a feladatok digitális formában időt, pénzt és energiát spórolnak meg.
+
+5. Igényelt üzleti folyamatok
+
+A megrendelő véleménye az, hogy egy labirintus illetve egy mastermind nevű játék sokat javithat
+az gyerekek koncetrációján. Követelménye, hogy a játékok közötti navigáció bármikor lehetséges legyen.
+
+-Labirintus:
+Az interneten fellelhető labirintusokat eléggé
+monotonnak találja, ugyanis mindig ugyanazt a pályát kell végig vinni újra és újra. Szüksége van a legtöbb online labirintus játékból hiányzó érintőképernyős/egér kattintásos vezérlésre, arra az esetre ha nem lenne elérhető a billenytűzet.
+Illetve azt szeretné, hogy egy egyszerű 3d-s vagy 2d-s objektum irányítása helyett valami érdekesebb a figyelem felkeltésére alkalmas dolgot irányíthassunk. A labirintus végén legyen egy széf ami átirányít a másik játékra.
+
+-Mastermind:
+Mastermindban ügyfelünknek az felelne meg, ha egy 4 jegyű számot kellene kitalálni 15 próbálkozásból, melyre 1 perc állna rendelkezésre. A játékos annyi segitséget kapna, hogy láthatja hány szám van jó helyen, illetve azt hogy hány darab szám szerepel a sorozatban, de rossz helyre írtuk azokat. Lehetőség szerint ha kitaláltuk a kódot az oldal kérdezzen rá akarunk-e újra játszani.
+
+-Modell:
+Kezdőoldal 	-> Labirintus -> célba érve 	-> Mastermind
+		-> Mastermind -> kód feltörve	-> Labirintus
+
+Labirintus<->Mastermind<->Kezdőoldal<->Labirintus //minden elérhető mindenhonnan
