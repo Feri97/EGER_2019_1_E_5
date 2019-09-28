@@ -1,8 +1,8 @@
-Rendszerterv
+﻿Rendszerterv
 
 1, A rendszer célja
 
-Egy készségfejlesztő és szórakoztató alkalmazás fejlesztése, amely a stresszhelyzetekben való teljesítőképességet javítja. 2 játékot tartalmaz melyek külön külön is indíthatóak, egy labirintus és egy mastermind játék. A labirintus teljesítése esetén automatikusan elindul a mastermind játék.
+Egy készségfejlesztő és szórakoztató alkalmazás fejlesztése, amely a stresszhelyzetekben való teljesítőképességet javítja tehát, hogy a felhasználó játékos körülmények között tudjon tanulni, különböző feladatokat megoldani. 2 játékot tartalmaz melyek külön külön is indíthatóak, egy labirintus és egy mastermind játék. A labirintus teljesítése esetén automatikusan elindul a mastermind játék. Fontos, hogy a felhasználó könnyen el tudjon igazodni a felületeken ezért minimalista felhasználói felületet kap a program.
 
 2, Projektterv (low prio)
 
@@ -16,6 +16,21 @@ Funkcionáis követelmények:
 
 
 5, Funkcionális terv
+
+Rendszerszereplők:
+-Felhasználó
+
+Rendszerhasználati esetek és lefutásaik:
+-Felhasználó:
+	-A főoldalon a kreditek megtekintése -> navigálás a játékokra
+	-A játékokon játszva(még nem teljesítve a feladatot) -> navigálás a másik játékra, főoldalra
+	-A játékokat megnyerve -> navigálás a másik játékra, főoldalra
+
+Menü-hierarchiák:
+-Főoldal
+-Játékok:
+	->Labirintus
+	->Mastermind
 
 6, Fizikai környezet
 
