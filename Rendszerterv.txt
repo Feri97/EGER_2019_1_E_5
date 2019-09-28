@@ -20,8 +20,17 @@ Egy készségfejlesztő és szórakoztató alkalmazás fejlesztése, amely a str
 4, Követelmények
 
 Funkcionáis követelmények:
--Átlátható kezelőfelület
+-Kezdő oldal
+-Kezdőlapról a játékok külön-külön elérhetősége
 -Egyszerű irányítás
+-Érintőképernyők és egér vezérlés támogatása a billentyűzet vezérlés mellett
+-Figyelemfelkeltő játékos karakter a labirintushoz
+-Mastermind játékban a találatok számának és helyének követése
+
+Nem funkcionális követelmények:
+-Letisztult, egyszerű kinézet
+-Pc és mobil eszközök támogatása
+-Böngészőtől függően vizuális vagy funckió beli eltérés ne legyen a játékokban
 
 
 5, Funkcionális terv
@@ -43,7 +52,7 @@ Menü-hierarchiák:
 
 6, Fizikai környezet
 
--Támogatott platformok: Windows PC
+-Támogatott platformok: Operációs rendszertől független, bármely modern webböngésző szoftver
 -Nincsenek vásárolt komponensek
 -Fejlesztői eszközök: Visual Studio Code
 
