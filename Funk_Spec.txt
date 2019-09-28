@@ -26,13 +26,12 @@ idõ vagy adott számu alkalom alatt. Ha ez sikerül a felhasználó nyert,ha viszont
 akkor a felhasználó vesztett. Mindkétt lehetõség esetén
 
 4. Jelenlegi üzleti folyamatok
-A jelenleg ismert koncentrációt javitó módszerek bár hatásosak, mégis elavultnak hatnak, ugyanis a legtöbjük 
+A jelenleg ismert koncentrációt javitó és stresszlevezetõ módszerek bár hatásosak, mégis elavultnak hatnak, ugyanis a legtöbjük 
 nem használják ki a technológia nyujtotta lehetõségeket. Ha van is ami kihasználja, azok nem tünnek univerzálisnak
-futtathatóság terén, illetve eléggé monotonnak hatnak a feladatok terén. Legtöbbször ugyanis ugyanazt a feladatott kell végrehajtani
-újra és újra, ami egy idõ után elriasztja azt a használójától. 
+bevitel és kezelhetõség terén, illetve eléggé monotonnak hatnak a feladatok terén. Nem éri õket semmi újdonság, ugyanis legtöbbször ugyanazt a feladatott 
+kell végrehajtani újra és újra, ami egy idõ után elriasztó lehet. 
 
-5. Igényelt üzleti folyamatok
-Olyan 
+
 
 
 9. Forgatókönyv
