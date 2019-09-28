@@ -1,37 +1,35 @@
 Funkcionális specifikáció
 
 1. Áttekintés
-Jelenleg kevés olyan játék van a piacon,amely  koncentrációt javítana és egyben szórakoztatna is. 
+Jelenleg kevés olyan játék van a piacon, amely koncentrációt javítana és egyben szórakoztatna is. 
 Célunk ezért olyan szórakoztató és egyben készségfejlesztõ alkalmazás elkészítése, amely képes 
 a stresszhelyzetekben való teljesítõ képesség fejlõdésének elõsegítésében, illetve képes
-a koncentráció javitásában. Erre olyan alkalmazást szeretnénk fejleszteni, ami tartalmaz egy labirintus
+a koncentráció  javításában. Erre olyan alkalmazást szeretnénk fejleszteni, ami tartalmaz egy labirintus
 és egy mastermind játékot. Azért esett erre két játékra választás ugyanis úgy gondoljuk ezek tudják fejleszteni
-azokat készségeket amiket a bevezetés elején emlitettünk.
+azokat készségeket amiket a bevezetés elején említettünk.
 
-2.Jelenlegi helyzet
-Labirintus játékokból jelenleg rengeteg féle megvalósitás lelhetõ fel az interneten, de ezek többsége eléggé
-monoton hatást kellt. Mindig ugyanazon a pályán kell végigmenni, ami egy idõ után könnyen kiismerhetõ lesz,
-tudják merre kell menni ahoz, kijussanak. Emiatt a felhasználó könnyen elveszti az érdeklõdést a játék iránt, 
-ugyanis nem talál benne kihivást és tovább lép valami másra. Ezért a célunk, egy olyan labirintus játék fejlesztése,
-ami minden elinditásnál, különbozõ pályával fogadja a felhasználókat, ezáltal fenntartva az érdeklõdést a játék iránt.
-A mastermindból a -labirintussal szemben- nem sok lelhetõ fel belõle, Ebbõl a szempontból illetve, hogy nagy jó koncetrációt
-javitó hatása van, úgy gondoljuk, hogy hiánypotló lehet e játékok terén.  
+2. Jelenlegi helyzet
+Labirintus játékokból jelenleg rengeteg féle megvalósítás lelhetõ fel az interneten, de ezek többsége eléggé
+monoton hatást kelt. Mindig ugyanazon a pályán kell végig menni, ami egy idõ után könnyen kiismerhetõ lesz,
+tudják merre kell menni ahhoz, kijussanak. Emiatt a felhasználó könnyen elveszti az érdeklõdést a játék iránt, 
+ugyanis nem talál benne kihívást és tovább lép valami másra. Ezért a célunk, egy olyan labirintus játék fejlesztése,
+ami minden elindításnál, különbözõ pályával fogadja a felhasználókat, ezáltal fenntartva az érdeklõdést a játék iránt.
+A mastermindból a -labirintussal szemben- nem sok lelhetõ fel belõle, Ebbõl a szempontból illetve, hogy nagy jó koncentrációt
+javító hatása van, úgy gondoljuk, hogy hiány pótló lehet e játékok terén.  
 
-3.Vágyálomrendszer
-Alkalmazás felépitése egyszerû. Amint betöltõdik, egy kezdõ oldal fogadja a felhasználót, ahol ki tudja választani,
-melyik játékkal kezd. A labirintust választva, átirányit a labirintus felületére, ahol maga a cimszereplõ játék található.
-Ha a játék végére ér a felhasználó választhat, hogy marad itt, vagy ha nem, akkor automatikusan tovább lesz irányitva a mastermindra.
-A mastermindot -ahogy a labirintust- szintén a fõoldalról lehet elérni. A játékban egy adott jegyü számott kell kitalálni egy bizonyos
-idõ vagy adott számu alkalom alatt. Ha ez sikerül a felhasználó nyert,ha viszont elfogyott az idõ vagy a próbálkozási lehetõség,
-akkor a felhasználó vesztett. Mindkétt lehetõség esetén
+3. Vágyálomrendszer
+Alkalmazás felépítése egyszerû. Amint betöltõdik, egy kezdõ oldal fogadja a felhasználót, ahol ki tudja választani,
+melyik játékkal kezd. A labirintust választva, átirányit a labirintus felületére, ahol maga a címszereplõ  játék található.
+Ha a játék végére ér a felhasználó választhat, hogy marad itt, vagy ha nem, akkor automatikusan tovább lesz irányítva a mastermindra.
+A mastermindot -ahogy a labirintust- szintén a fõoldalról lehet elérni. A játékban egy adott jegyû számot kell kitalálni egy bizonyos
+idõ vagy adott számú alkalom alatt. Ha ez sikerül a felhasználó nyert, ha viszont elfogyott az idõ vagy a próbálkozási lehetõség,
+akkor a felhasználó vesztett. Mindkét lehetõség esetén
 
 4. Jelenlegi üzleti folyamatok
-A jelenleg ismert koncentrációt javitó és stresszlevezetõ módszerek bár hatásosak, mégis elavultnak hatnak, ugyanis a legtöbjük 
-nem használják ki a technológia nyujtotta lehetõségeket. Ha van is ami kihasználja, azok nem tünnek univerzálisnak
+A jelenleg ismert koncentrációt javító és stresszlevezetõ módszerek bár hatásosak, mégis elavultnak hatnak, ugyanis a legtöbbjük  
+nem használják ki a technológia nyújtotta lehetõségeket. Ha van is ami kihasználja, azok nem tûnnek univerzálisnak
 bevitel és kezelhetõség terén, illetve eléggé monotonnak hatnak a feladatok terén. Nem éri õket semmi újdonság, ugyanis legtöbbször ugyanazt a feladatott 
 kell végrehajtani újra és újra, ami egy idõ után elriasztó lehet. 
-
-
 
 5. Igényelt üzleti folyamatok
 -Labirintus:
@@ -50,59 +48,125 @@ Labirintus<->Mastermind<->Kezdõoldal<->Labirintus //minden elérhetõ mindenhonnan
 6. Követelménylista
  Funkcionális követelmények
         k1:labirintus:
-		Olyan labirintus ami javascripten alapszik és minden betöltésnél más pályával fogadja a felhasználót.
+		Olyan labirintus legyen ami javascripten alapszik és minden betöltésnél más pályával fogadja a felhasználót.
 	
 	k2:felületi vezérlés:
-		A felületen megjelenõ gombok amikkel lehet irányitani a karaktert a labirintusban. Mindig csak azok a 
-		gombok jelennek meg amerre a karakter tud menni.
+		A felületen meg kell jelennie olyan gomboknak amikkel lehet irányitani a karaktert a labirintusban. Mindig csak azok a 
+		gombok jelenjenek meg amerre a karakter tud majd menni.
 	
 	k3:home gomb:
-		Vissza visz a kezdõoldalra.
+		Vissza kell vigyen a kezdõoldalra mindkét játék esetében.
 
 	k4:mastermind:
-		Javascript játék ahol egy 4 jegyû számot kell kitalálni 1 perc vagy 16 alkalom alatt.
-	
-	k5:segitõdoboz:
-		Segit a mastermindban, mégpedig abban, hogy mennyi szám van jó helyen illetve ha szerepel a szám, de rossz
-		helyen van akkor azt is kiirja.	
+		Javascript játék ahol egy 4 jegyû számot kell kitalálni 1 perc vagy 16 alkalom alatt. Minden számjegyet külön mezõbe
+		kelljen írni és egy küldés gombbal lehessen elküldeni feldolgozásra a számokat. A bevitelimezõk felett egy doboz legyen,
+		ami mutassa, hány szám van jó helyen és hány olyan van, ami szerepel ugyan a kitalálandóban de rossz helyen van.
+		 	
+	k5:automatikus mezõléptetés és törlés:
+		Automatikusan léptesse a egyik mezõbõl a másikba ha az elõtte lévõbe írtak  valamit, és törölje azok tartalmát,
+		ha a bennük lévõ tartalmat elküldték feldolgozásra.	
 	
 	k6:visszaszámláló:
-		Jelzi, mennyi idõ maradt hátra a mastermind megoldására.
+		Jelezze, hogy mennyi idõ marad hátra a mastermind megoldására, az elsõ mezõbe való írásnak kellene, hogy aktiválja.
 
-	k7:átirányitás:
-		Ha egyik játéknak végére értünk, lehet választani, hogy maradunk az adott játéknál és újra kezdjük, vagy
-		átmegyünk a másik oldalra. Utóbbi esetében átirányit a másik játékra, attól függ, hogy hol vagyunk.
+	k7:átirányitás vagy újrakezdés:
+		Ha az egyik játéknak végére ér a felhasználó, lehessen választani, hogy marad az adott játéknál és újra kezdi, vagy
+		elmegy onnan. Utóbbi esetében átirányítsa a másik játékra.
+
+	k8:kezdõoldal:
+		Egy kezdõoldalnak kell megjelennie megnyitáskor ahonnan lehet majd tovább menni a labirintusra vagy a mastermindra.
 
  Nem funkcionális követelmények
-	k8:design:
-		CSS-en alapuló design. Felhasznóló barát, jól elkülöniti a különbözõ dolgokat.
-	
-	k9:oldal:
-		HTML oldalak amik tartalmazzák a játékokat.		
-		
 
+	k9:design:
+		CSS-en alapuló design. Felhasználó barát legyen és jól elkülönítse a különbözõ elemeket egymástól.
+	
+	k10:oldal:
+		HTML oldalak amik tartalmazni fogják a játékokat.
+	
+	k11:platform:
+		Alkalmazás futtatható legyen az összes aktuálisan elérhetõ böngészõk aktuális verziójával.
+	
+	k12:labirintus karakter és végpont:
+		A labirintusban olyan karaktert kelljen mozgatni ami egyedi és sokak számára ismert, illetve
+		valami hozzá kapcsolható legyen a végpont.	
+		
 7. Képernyõ terv
 KepernyoTerv.png
 
 8. Használati esetek
+Ha a felhasználó dekoncetrálnak vagy stresszesnek érzi magát esetleg egyszerre mindkettõnek, megnyitja az alkalmazást és elindítja
+2 játék közül valamelyiket. Az alkalmazás használata alatt, várhatóan használója stressz és dekoncetrációs szintje csökkeni fog,
+igy mihamarabb tudja majd folytatni a félbehagyott munkát.
 
 9. Forgatókönyv
-Az alkalmazás a klienseken fut, nem kell hozzá semmiféle szerver oldali erõforrás.
+Az alkalmazás a webböngészõkben fut, nem kell hozzá semmiféle szerver oldali erõforrás.
 A kezdõoldalon lehetõségünk van kiválasztani melyik játékkal szeretnénk játszani.
 A labirintus játékban, karakterünket a hangyát több féle módon lehet irányitani.
-Az egyik mód billenytûzetes irányitás,ebben az esetben a W,A,S,D gombok lenyomásával
-lehet irányitani, a másik mód pedig a képernyõn megjelenõ gombok segitségel lehet. Mindig
+Az egyik mód billentyûzetes irányitás, ebben az esetben a W,A,S,D gombok lenyomásával
+lehet irányitani, a másik mód pedig a képernyõn megjelenõ gombok segítséggel lehet. Mindig
 csak azok a gombok jellenek meg, amerre jelenleg lehet mozgatni a karaktert. Ha karakterünk
 elért a labirintus végére, akkor megjelenik egy figyelmeztetés és itt lehetõség van választani
 aközött, hogy újra végig visszük a labirintust vagy átmegyünk a mastermind-ra. Ha maradunk a 
 a labirintusnál, akkor az oldalt újra tölt, de akkor már egy másik labirintus jelenik meg.
-Ez azért van mert minden újboli oldalbetöltésnél, új labirintus generálódik le. Ha viszont
+Ez azért van mert minden újbóli oldalbetöltésnél, új labirintus generálódik le. Ha viszont
 az átmenést választjuk a mastermind-ra, akkor az oldal automatikusan átirányit minket annak
-oldalára. Mastermind-nál egy 4 jegyü számot kell kitalálni 1 perc alatt. A számjegyeket 4
-különbözõ mezõbe kell irni, amint beirtuk a számot, máris ugrik a következõ mezõre. Minden
-mezõben csak egy számot lehet irni és amint az elsõ cellába irunk, elindul a visszaszámlás.
+oldalára. Mastermind-nál egy 4 jegyû számot kell kitalálni 1 perc vagy 16 alkalom alatt. 
+A számjegyeket 4 különbözõ mezõbe kell írni, amint beírtuk a számot, máris ugrik a következõ mezõre. 
+Minden mezõben csak egy számot lehet írni  és amint az elsõ cellába írunk, elindul a visszaszámlás.
 Miután megadtuk a tippünket, a mezõ mellett lévõ gombra kattintva küldhetjük el a scriptnek,
 ami kielemzi az adott tippet. Az elemzés eredményét a mezõ felett lévõ dobozban láthatjuk,
-ami kiirja, hogy mit adtunk meg tipnek és, hogy ebbõl mennyi van jó helyen, és hogy mennyi 
-van rossz helyen, ha szám szerepel a kitalálandó számbam. Ha letelt a visszaszámlálás akkor 
-megjelenik egy értesités, és kezdhetjük újra az egészet. 
+ami kiírja, hogy mit adtunk meg tippnek és, hogy ebbõl mennyi van jó helyen, és hogy mennyi 
+van rossz helyen, ha szám szerepel a kitalálandó számban. Ha letelt a visszaszámlálás vagy 
+elhasználtuk a 16 alkalmat akkor  megjelenik egy értesités. Itt lehet választani az újrakezdés mellett, 
+vagy visszamenetelre a labirintusra.
+
+10. Funkciók
+
+	f1:Kezdõlap:
+		k8,k9,k10,k11 követelményeknek megfelel.
+	     Ez az oldal fogadja a felhasználót minden elsõ megnyitáskór, innen lehet továbbmenni a labirintusra vagy a mastermindra.
+
+	f2:Labirintus:
+		k1,k9,k10,k12 követelményeknek megfelel
+	    Minden betöltésnél új pálya generálódik, ahol a hangyát kell végig vezetni a labirintuson, aminek a végén egy széf található
+	
+	f3:Felületi vezérlés:
+		k2 követelményeknek megfelel
+	   A felületen gombok jelennek meg amikkel lehet irányitani a karaktert a labirintusban. Mindig csak azok a 
+	   gombok jelennek meg amerre a karakter tud jelen pillanatban menni.
+	
+	f4:Home gomb:
+		k3 követelménynek megfelel
+	    Vissza visz a kezdõoldalra mindkét játék esetében.
+
+	f5:mastermind:
+		k4,k9,k10,k12 követelménynek megfelel
+	   Javascript játék ahol egy 4 jegyû számot kell kitalálni 1 perc vagy 16 alkalom alatt. Minden számjegyet külön mezõbe
+	   kell  írni  és egy küldés gombbal lehet elküldeni feldolgozásra a számokat. A bevitelimezõk felett egy szövegdoboz van,
+	   ami mutatja, hány szám van jó helyen és hány olyan van, ami szerepel ugyan a kitalálandóban de rossz helyen van.
+		 	
+	f6:automatikus mezõléptetés és törlés:
+		k5 követelménynek megfelel
+	   Automatikusan lépteti a egyik mezõbõl a másikba ha az elõtte lévõbe írtak valamit, és törli azok tartalmát, ha bennük
+	   lévõ tartalmat elküldjük feldolgozásra.	
+	
+	f7:visszaszámláló:
+		k6 követelménynek megfelel
+	   Jelzi, hogy mennyi idõ maradt hátra a mastermind megoldására, az elsõ mezõbe való írás indítja el a visszaszámlást .
+
+	f8:átirányitás vagy újrakezdés:
+		k7 követelménynek megfelel
+	   Ha az egyik játéknak végére ér a felhasználó, felugrik egy alert ablak, és megkérdezi õt, hogy marad az adott játéknál és újra kezdi, vagy
+	   átmegy a másik játékra. Ha OK-t nyom, marad, ha mégsé-re, abban esetben átirányit a másik játékra.
+
+11. Fogalomszótár
+
+HTML: Alapértelmezett leíró nyelv, weboldalak készítésére szokás használni.
+
+CSS: HTML oldalak stílusnak leírására használatos nyelv.
+.
+Javascript: Programozási nyelv, weboldalakhoz szokás használni
+
+
+
