@@ -33,6 +33,22 @@ kell végrehajtani újra és újra, ami egy idõ után elriasztó lehet.
 
 
 
+5. Igényelt üzleti folyamatok
+-Labirintus:
+Az interneten fellelhetõ labirintusokat eléggé monotonok, ugyanis mindig ugyanazt a pályát kell végig vinni újra és újra. Szükség van a legtöbb online labirintus játékból hiányzó érintõképernyõs/egér kattintásos vezérlésre, arra az esetre ha nem lenne elérhetõ a billenytûzet.
+Illetve arra, hogy egy egyszerû 3d-s vagy 2d-s objektum irányítása helyett valami érdekesebb a figyelem felkeltésére alkalmas dolgot irányíthassunk. A labirintus végén legyen egy széf ami átirányít a másik játékra.
+
+-Mastermind:
+Mastermindban egy 4 jegyû számot kell kitalálni 15 próbálkozásból, melyre 1 perc áll rendelkezésre. A játékos annyi segitséget kapjon, hogy láthatja hány szám van jó helyen, illetve azt hogy hány darab szám szerepel a sorozatban, de rossz helyre írta azokat. Amikor kitaláltuk a kódot az oldal kérdezzen rá akarunk-e újra játszani.
+
+-Modell:
+Kezdõoldal 	-> Labirintus -> célba érve 	-> Mastermind
+		-> Mastermind -> kód feltörve	-> Labirintus
+
+Labirintus<->Mastermind<->Kezdõoldal<->Labirintus //minden elérhetõ mindenhonnan
+
+7.Képernyõ terv
+KepernyoTerv.png
 
 9. Forgatókönyv
 Az alkalmazás a klienseken fut, nem kell hozzá semmiféle szerver oldali erõforrás.

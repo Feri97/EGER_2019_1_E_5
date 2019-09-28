@@ -39,16 +39,27 @@ kitalálni adott számú alkalom alatt.A játékos annyi segitséget kap, hogy l
 illetve azt hogy bár a szám szerepel a sorozatban, mégis rossz helyen van. 
 
 3. Vágyálom rendszer
-Az alkalmazások életciklusában elengedhetetlen szerepet tölt be a fejlesztés, hogy a
-felhasználók számára egy könnyen kezelhető programot hozhassunk létre. Esetleges
-hibák megelőzése, kijavítása nagyon fontos, hiszen tökéletes program nincs. A hibák és a
-technológia fejlődésével folyamatos fejlesztésre szorul alkalmazásunk. Egy okostelefonon
-keresztül is használható több pályás labirintus játékot és egy fejtörő, szám kitalálós játékot
-szeretnénk létrehozni. Fontosnak tartjuk, hogy a programunk fejlődésének köszönhetően
-felhasználóink jobban kitudjanak kapcsolódni és a koncentrációs képességük fejlődjön. Konkrét
-célunk a labirintus játékunkhoz a jövőben időzítő hozzáadása, scoreboard hozzáadása ami elmenti
-a játékosok pontszámát, több pálya hozzáadása, azok növelése és vizuális fejlesztése.
-Mastermind nevű játékhoz időzítő hozzáadását tervezzük.
+A projektünk célja egy olyan rendszer létrehozása, amely könnyen elérhető, kikapcsolódást nyújt a 
+felhasználónak, szórakoztató és egyben kézségfejlesztő is.
+Mivel manapság már mindenki megengedheti magának, hogy okostelefonja legyen, ezért a programunkat úgy
+fejlesztettük, hogy az elérhető legyen asztali számítógépen és okostelefonon egyaránt.
+A program elindításakor a kezdőlap fogad minket ahol Antman - A Hangya történetét olvashatjuk el. Innen tovább tudunk lépni a játékokra.
+Az első verzió két játékot fog tartalmazni. Ezek a játékok könnyen kezelhetőek és látványos
+felülettel rendelkeznek, hogy felkeltse a felhasználó érdeklődését.
+Az első egy Labirintus játék. Ebben a játékban Antman-t irányítjuk és a WASD gombok használatával vagy az egérrel el kell jutni 
+a labirintuson keresztül a széfig. Ha sikerül, átirányít minket a program a második játékra. Ennek a neve Mastermind.
+A játék indításkor ismerteti velünk a játékszabályokat és a játék menetét.
+Ebben a fejtörő játékban egy négy jegyú számot kell a játékosnak kitalálnia úgy, hogy két számjegy nem lehet ugyanaz és minden próbálkozásnál a játék
+tudatja velünk hány számjegyet találtunk el. Amint elkezdjük a játékot, egy percünk vagy 15 próbálkozásunk lesz kitalálni a négy számjegyből álló számkombinációt.
+A későbbiekben attól függően, hogy mennyire lesz sikeres a projektünk, a következő fejlesztésekes szeretnénk
+végrehajtani.
+
+Labirintus:
+-Több pálya hozzáadása
+-Nehézségi szintek hozzáadaása.
+
+Mastermind:
+-Egy toplista ami elmenti, hogy a játékosoknak hány másodperc alatt sikerült rájönni a számra.
 
 4. Jelenlegi üzleti folyamatok
 A mai világban nem használjuk ki a már meglévő technológiákat arra, hogy a tanulást és a készségeink fejlesztését sokkal szórakoztatóbbá és interaktívabbá tegyük. A jelenlegi világban a fiatalok egyre kevésbé hajlandóak a "klasszikus" módon tanulni, ezért  alternatív módszereket kell keresnünk. Jelenleg a gyermekek rengeteg játék segítségével és esetleg papíron gyakorolnak logikai feladatokat, amely a XXI. században elavultnak számít. Ez rengeteg plusz költséget jelent, mely elkerülhető lenne. Az oktatóknak rengeteg időt elvesz az idejéből az, hogy mindenkire külön figyeljenek és segítsék. Illetve a feladatok megoldása papíron is sokkal időigényesebb, mintha különböző alkalmazásokat használnának a gyerekek. Mindezt összevetve a feladatok digitális formában időt, pénzt és energiát spórolnak meg.
