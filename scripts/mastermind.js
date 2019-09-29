@@ -2,6 +2,7 @@
 var gameState;
 var codeArr = Array(4);
 var textOutArr = [];
+var timehelp=0;   //idő segédváltozó
 
 window.onload = function WindowLoad(event) {
 	//gamestate a játék állapotának nyomonkövetésére
@@ -18,6 +19,56 @@ window.onload = function WindowLoad(event) {
 
 
 }
+
+function timehelper() //Segit hogy ne induljon el mindig elölröl az óra. Az első mező aktiválja a metódust amit hivja a time metódust.
+{
+	timehelp+=1;
+	if (timehelp==1) 
+		{
+			time();
+		}
+
+}
+
+function time() //Beállitja az időt, illetve elinditja a visszaszámlást jelenleg 1 percről. Visszaszámláló jelenleg rejtett
+{	
+document.getElementById("timer").innerHTML =
+  01 + ":" + 00;
+ document.getElementById("timer").style.visibility="hidden" ;
+startTimer();
+}
+
+
+function startTimer() //Elindijta a visszaszámlálást illetve láthatóvá teszi azt. visszaszámlás lejárta után lehet valasztási lehetőséget ad az újra kezdésre vagy átirányít a főoldalra
+{
+	document.getElementById("timer").style.visibility="visible" ;
+  var presentTime = document.getElementById("timer").innerHTML;
+  var timeArray = presentTime.split(/[:]+/);
+  var m = timeArray[0];
+  var s = checkSecond((timeArray[1] - 1));
+  if(s==59){m=m-1}
+  if(m<0)
+  	{
+  var r = confirm("Az Idő lejárt !!! Ha újra akarja kezdeni nyomjon rá az ok-ra");
+  if (r == true) {
+   location.reload(); 
+  } else {
+    window.location.href = "../mainpage.html";
+  }
+  		
+  	}
+  
+  document.getElementById("timer").innerHTML =
+    m + ":" + s;
+  setTimeout(startTimer, 1000);
+}
+
+function checkSecond(sec) {
+  if (sec < 10 && sec >= 0) {sec = "0" + sec}; // add zero in front of numbers < 10
+  if (sec < 0) {sec = "59"};
+  return sec;
+}
+
 
 function autotab(current,to) //tovább lépteti a kurzort a következő mezőbe, ha abba már irtak
 {
