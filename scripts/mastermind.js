@@ -19,6 +19,23 @@ window.onload = function WindowLoad(event) {
 
 }
 
+function autotab(current,to) //tovább lépteti a kurzort a következő mezőbe, ha abba már irtak
+{
+    if (current.getAttribute && 
+      current.value.length==current.getAttribute("maxlength")) {
+        to.focus() 
+        }
+}
+
+function clear() //mezők tartalmának törlése azután, ha tipp el lett küldve.
+{
+	document.getElementById("txtGuessPosn0").value = "";
+	document.getElementById("txtGuessPosn1").value = "";
+	document.getElementById("txtGuessPosn2").value = "";
+	document.getElementById("txtGuessPosn3").value = "";
+
+}
+
 //új játékkor új kód generálása random számokkal
 function newGame() {
 	textOutArr = [];
@@ -138,4 +155,5 @@ function parse() {
 	}
 	
 	localStorage.setItem('mastermindGameState', JSON.stringify(gameState));
+	clear();
 }
