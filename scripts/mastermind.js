@@ -133,6 +133,10 @@ function parse() {
 		gameState['codeNotBroken'] = 0;
 		textOutArr.unshift( "Gratulálok!!\nNyertél!!\n");
     	
+    	var millisecondsToWait = 500;
+		setTimeout(function() {
+			redirect();
+		}, millisecondsToWait);
 	}
 	//túl sok próba esetén
 	else if (gameState['guessCount'] == 15) {
@@ -145,6 +149,10 @@ function parse() {
 			+ codeArr[3] 
 			+ "\n\nTöltsd újra az oldalt egy új játékhoz\n\n");
 		
+		var millisecondsToWait = 500;
+		setTimeout(function() {
+			redirect();
+		}, millisecondsToWait);
 	}
 	
 	textOut.value = "";
@@ -156,4 +164,14 @@ function parse() {
 	
 	localStorage.setItem('mastermindGameState', JSON.stringify(gameState));
 	clear();
+}
+
+function redirect() //Átirányit a labirintusra ok esetén vagy újra generálja az egész mastermindot
+{
+  var r = confirm("Nyertél! Nyomj OK-t ha vissza akarsz menni a labirintusra. Ha viszont újra akarsz játszani a masterminddal akkor nyomj a mégse gombra");
+  if (r == true) {
+ 	window.location.href = "maze.html";
+  } else {
+    location.reload();
+  }
 }
