@@ -266,7 +266,15 @@ function onKeyDown(event) {
 }
 
 
-
+function redirect() //Átirányit a mastermindra ok esetén vagy újra generálja az egész labirintust
+{
+  var r = confirm("Nyomj OK-t ha tovább akarsz menni a mastermindra. Ha viszont újra akarsz játszani a labirintussal akkor nyomj a mégse gombra");
+  if (r == true) {
+ 	window.location.href = "mastermind.html";
+  } else {
+    location.reload();
+  }
+}
 
 function finish() //finish metódus érzékeli azt ha a karakter elérte a célt, és meghivja az redirect metódust fél másodperces késésel. E metódust bármely gomb lenyomása aktiválja
 {
@@ -277,6 +285,8 @@ function finish() //finish metódus érzékeli azt ha a karakter elérte a célt
 		setTimeout(redirect,500);
 	}
 }
+
+
 
 function onLoad() {
 	//betöltéskor példányosítja a labirintust, eventek kezelése
