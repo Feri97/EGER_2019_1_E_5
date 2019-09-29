@@ -2,9 +2,12 @@
 
 1, A rendszer célja
 
-Egy készségfejlesztő és szórakoztató alkalmazás fejlesztése, amely a stresszhelyzetekben való teljesítőképességet javítja tehát, hogy a felhasználó játékos körülmények között tudjon tanulni, különböző feladatokat megoldani. 2 játékot tartalmaz melyek külön külön is indíthatóak, egy labirintus és egy mastermind játék. A labirintus teljesítése esetén automatikusan elindul a mastermind játék. Fontos, hogy a felhasználó könnyen el tudjon igazodni a felületeken ezért minimalista felhasználói felületet kap a program.
+Egy készségfejlesztő és szórakoztató alkalmazás fejlesztése, amely a stresszhelyzetekben való teljesítőképességet javítja tehát, 
+hogy a felhasználó játékos körülmények között tudjon tanulni, különböző feladatokat megoldani. 2 játékot tartalmaz melyek külön külön is indíthatóak, 
+egy labirintus és egy mastermind játék. A labirintus teljesítése esetén automatikusan elindul a mastermind játék. 
+Fontos, hogy a felhasználó könnyen el tudjon igazodni a felületeken ezért minimalista felhasználói felületet kap a program.
 
-2, Projektterv (low prio)
+2, Projektterv
 
 	Dátum		Tevékenység						Résztvevő(k)
 	
@@ -17,38 +20,49 @@ Egy készségfejlesztő és szórakoztató alkalmazás fejlesztése, amely a str
 
 3, Üzleti folyamatok modellje
 
+-Modell:
+Kezdőoldal 	-> Labirintus -> célba érve 	-> Mastermind
+		-> Mastermind -> kód feltörve	-> Labirintus
+
+Labirintus<->Mastermind<->Kezdőoldal<->Labirintus //minden elérhető mindenhonnan
+
 4, Követelmények
 
 Funkcionáis követelmények:
--Kezdő oldal
--Kezdőlapról a játékok külön-külön elérhetősége
--Egyszerű irányítás
--Érintőképernyők és egér vezérlés támogatása a billentyűzet vezérlés mellett
--Figyelemfelkeltő játékos karakter a labirintushoz
--Mastermind játékban a találatok számának és helyének követése
+
+	-Kezdő oldal
+	-Kezdőlapról a játékok külön-külön elérhetősége
+	-Egyszerű irányítás
+	-Érintőképernyők és egér vezérlés támogatása a billentyűzet vezérlés mellett
+	-Figyelemfelkeltő játékos karakter a labirintushoz
+	-Mastermind játékban a találatok számának és helyének követése
 
 Nem funkcionális követelmények:
--Letisztult, egyszerű kinézet
--Pc és mobil eszközök támogatása
--Böngészőtől függően vizuális vagy funckió beli eltérés ne legyen a játékokban
+
+	-Letisztult, egyszerű kinézet
+	-Pc és mobil eszközök támogatása
+	-Böngészőtől függően vizuális vagy funckió beli eltérés ne legyen a játékokban
 
 
 5, Funkcionális terv
 
 Rendszerszereplők:
--Felhasználó
+
+	-Felhasználó
 
 Rendszerhasználati esetek és lefutásaik:
--Felhasználó:
-	-A főoldalon a kreditek megtekintése -> navigálás a játékokra
-	-A játékokon játszva(még nem teljesítve a feladatot) -> navigálás a másik játékra, főoldalra
-	-A játékokat megnyerve -> navigálás a másik játékra, főoldalra
+
+	-Felhasználó:
+		-A főoldalon a kreditek megtekintése -> navigálás a játékokra
+		-A játékokon játszva(még nem teljesítve a feladatot) -> navigálás a másik játékra, főoldalra
+		-A játékokat megnyerve -> navigálás a másik játékra, főoldalra
 
 Menü-hierarchiák:
--Főoldal
--Játékok:
-	->Labirintus
-	->Mastermind
+
+	-Főoldal
+	-Játékok:
+		->Labirintus
+		->Mastermind
 
 6, Fizikai környezet
 
@@ -57,26 +71,34 @@ Menü-hierarchiák:
 -Fejlesztői eszközök: Visual Studio Code
 
 7, Absztrakt modell
+
 -
 
 8, Architekturális terv
+
 Backend:
 A rendszerhez nincs szükség adatbázis szerverre, ezért azt nem használunk. A böngészőkben lefutó script-ek önállóan ellátják a szükséges feladatot. 
 Web:
 A mastermind JSON használatával készül el. Az alkalmazáshoz korlátozások nélkül lehet hozzáférni, ez biztosítja a kényelmes és kötetlen felhasználást.
 
 9, Adatbázis terv
+
 Az alkalmazás egyenlőre nem fog adatbázist használni.
 
 10, Implementációs terv
+
 Web:
 A Webes felület főként HTML, CSS, és Javascript nyelven fog készülni.
-Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság, és könnyebb bővítés érdekében.  
+Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és úgy fogjuk egymáshoz csatolni a jobb átláthatóság, 
+könnyebb változtathatóság, és könnyebb bővítés érdekében.  
 
 11, Tesztterv
-Unit teszt: 
+
+Unit teszt:
+
 Ahol csak lehetséges, szükséges már a fejlesztési idő alatt is tesztelni, hogy a metódusok megfelelően működnek-e.
-Ezért a metódusok megfelelő működésének biztosítására mindegyikhez írni kell Unit teszteket, a minél nagyobb kódlefedettséget szem előtt tartva. A metódusok akkor vannak kész, ha a tesztesetek hiba nélkül lefutnak az egyes metódusokon. 
+Ezért a metódusok megfelelő működésének biztosítására mindegyikhez írni kell Unit teszteket, a minél nagyobb kódlefedettséget szem előtt tartva. 
+A metódusok akkor vannak kész, ha a tesztesetek hiba nélkül lefutnak az egyes metódusokon. 
 
 Alfa teszt: 
 
@@ -86,18 +108,21 @@ Az eljárás sikeres, ha különböző böngészőkben is megfelelően működne
 Beta teszt: 
 
 Ezt a tesztet nem a fejlesztők végzik.
-Tesztelendő böngészők: Opera, Firefox, Google Chrome, Safari
-Tesztelendő kijelző méretek: 1280x720 (minimum), 1366x768, 1920x1080
+	-Tesztelendő böngészők: Opera, Firefox, Google Chrome, Safari
+	-Tesztelendő android rendszerek:6.0.0(minimum), vagy újabbak
+	-Tesztelendő kijelző méretek: 1280x720 (minimum), 1366x768, 1920x1080
 
 A teszt időtartama egy hét. 
 A tesztelés alatt a tesztelő felhasználók visszajelzéseket küldhetnek a fejlesztőknek, probléma/hiba felmerülése esetén. 
 Ha hiba lép fel, a fejlesztők kijavítják a lehető leghamarabb. Sok hiba esetén a tesztelés ideje elhúzódhat plusz egy héttel.
 
-12, Telepítési terv (low prio)
-Webes alkalmazás
-A szoftver webes felületéhez csak egy ajánlott böngésző telepítése szükséges (Google Chrome, Firefox, Opera, Safari), külön szoftver nem kell hozzá. A webszerverre közvetlenül az internetről kapcsolódnak rá a kliensek.
+12, Telepítési terv
 
-13, Karbantartási terv (low prio)
+Webes alkalmazás
+A szoftver webes felületéhez csak egy ajánlott böngésző telepítése szükséges (Google Chrome, Firefox, Opera, Safari), külön szoftver nem kell hozzá. 
+A webszerverre közvetlenül az internetről kapcsolódnak rá a kliensek.
+
+13, Karbantartási terv
 
  A szoftver karbantartása a jövőben a következőket fogja tartalmazni:
 
