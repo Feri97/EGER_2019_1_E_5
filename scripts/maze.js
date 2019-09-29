@@ -204,6 +204,70 @@ class Maze {
 
 }
 
+function onKeyDown(event) {
+
+	//wasd billentyűkkel navigálás + nyilak láthatósága
+	switch (event.keyCode) {
+		case 65:
+			if (!maze.cells[player.col][player.row].westWall) {
+				player.col -= 1;
+			
+			}
+			break;
+		case 68:
+			if (!maze.cells[player.col][player.row].eastWall) {
+				player.col += 1;
+			
+			}
+			break;
+		case 83:
+			if (!maze.cells[player.col][player.row].southWall) {
+				player.row += 1;
+			
+				
+			}
+			break;
+		case 87:
+			if (!maze.cells[player.col][player.row].northWall) {
+				player.row -= 1;
+			
+				
+			}
+			break;
+		default:
+			break;
+	}
+	maze.redraw();
+	if (!maze.cells[player.col][player.row].westWall) {
+		document.getElementById("left").style.visibility = "visible";
+	}
+	else{
+		document.getElementById("left").style.visibility = "hidden";
+	}
+	if (!maze.cells[player.col][player.row].southWall) {
+		document.getElementById("down").style.visibility = "visible";
+	}
+	else{
+		document.getElementById("down").style.visibility = "hidden";
+	}
+	if (!maze.cells[player.col][player.row].eastWall) {
+		document.getElementById("right").style.visibility = "visible";
+	}
+	else{
+		document.getElementById("right").style.visibility = "hidden";
+	}
+	if (!maze.cells[player.col][player.row].northWall) {
+		document.getElementById("up").style.visibility = "visible";
+	}
+	else{
+		document.getElementById("up").style.visibility = "hidden";
+	}
+	
+}
+
+
+
+
 function finish() //finish metódus érzékeli azt ha a karakter elérte a célt, és meghivja az redirect metódust fél másodperces késésel. E metódust bármely gomb lenyomása aktiválja
 {
 	var pos =player.col+player.row; 
