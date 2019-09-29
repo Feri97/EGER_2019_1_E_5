@@ -1,0 +1,88 @@
+﻿Demó project
+Követelményspecifikáció
+
+1. Bevezetés
+Az emberekkel gyakran előfordul, hogy jelenleg végzett feladataikkal 
+nem haladnak, és nem tudnak el jutni 1-ről a 2-re. Legyen szó fizikai
+vagy mentális munkáról, tanulásról vagy sportolásról, közbe szoktak jönni
+olyan dolgok ami miatt elveszítik a koncentrációjukat, és nem tudnak haladni az
+éppen végzett aktuális feladatukkal. Ilyenkor a legtöbben, hogy kizökkenjenek egy kicsit a 
+megszokott dolgokból remélve ezután újra tudnak koncentrálni, felmennek az internetre.
+Okostelefonon vagy PC-n keresztül, az interneten megannyi lehetőség között
+lehet válogatni, amivel kikapcsolódhat egy időre az emberi agy. Például, elolvassák a különböző
+híroldalokon mi történik a nagyvilágban, vagy csekkolják ismerőseink bejegyzéseiket és megosztásaikat
+a közösségi oldalakon, vagy csak vicces videókat néznek a különböző videómegosztókon, vagy 
+elkezdenek játszani valami apróbb online vagy mobilokon is elérhető játékokkal. A mi célunk éppen
+az utóbbiakk, azaz a játékokkal való kikapcsolódók megcélzása olyan alkalmazás(ok)al amik segítenek
+a koncentrációt javítani, ezáltal jobb odafigyelést és kitartást a későbbi feladatokhoz.
+
+2. Jelenlegi helyzet
+Jelenleg kevés koncentrációt javító játék van a piacon. Célunk az, 
+hogy egy olyan szórakoztató és egyben készségfejlesztő alkalmazást készítsünk, 
+mely akár a stresszhelyzetekben való teljesítő képesség fejlődését is elősegítheti. 
+Figyelembe kell vennünk a konkurens cégek ajánlatait és az általuk kínált lehetőségeket.
+Manapság az informatika rohamos fejlődésének köszönhetően a fiatalabb generáció 
+könnyebben használja a technológia által nyújtott szolgáltatásokat, 
+de ettől független sokaknak még nehézséget okozhat. 
+Törekednünk kell a minél felhasználó barátibb kezelőfelületre, 
+hogy versenyképesek legyünk és meggyőzzük vevőinket arról, hogy ők a legfontosabbak. 
+Úgy látjuk, hogy egy labirintus illetve egy mastermind nevű játék sokat javithat
+az emberek koncentrációján. A labirintust nem kell senkinek sem bemutatni, gondolom
+már mindenki találkozott vele valamilyen formában. Az interneten fellelhetők viszont eléggé
+monotonok, ugyanis mindig ugyanazt a pályát kell végig vinni újra és újra. 
+Emiatt a felhasználók hamar bele unnak és átváltanak valami más tevékenységre. Ráadásul a legtöbb 
+online labirintusban nincs meg az érintőképernyős/egér kattintásos vezérlés abban az esetben ha nem érhető el billentyűzet.
+Illetve a legtöbb ilyenben egy egyszerű 3d-s vagy 2d-s objektumot kell irányitani, ami egyeseknek nem lehet eléggé 
+figyelem felkeltő. A másik koncentráció játék, az a mastermind lenne. Ilyen tipusú játékból nem sok található interneten, 
+úgy mondhatni hiány potló lehet. Mastermind lényege, hogy adott egy tetszőleges jegyű számot kell 
+kitalálni adott számú alkalom alatt. A játékos annyi segítséget kap, hogy láthatja hány szám van jó helyen,
+illetve azt hogy bár a szám szerepel a sorozatban, mégis rossz helyen van. 
+
+3. Vágyálom rendszer
+A projektünk célja egy olyan rendszer létrehozása, amely könnyen elérhető, kikapcsolódást nyújt a 
+felhasználónak, szórakoztató és egyben készségfejlesztő is.
+Mivel manapság már mindenki megengedheti magának, hogy okostelefonja legyen, ezért a programunkat úgy
+fejlesztettük, hogy az elérhető legyen asztali számítógépen és okostelefonon egyaránt.
+A program elindításakor a kezdőlap fogad minket ahol Antman - A Hangya történetét olvashatjuk el. Innen tovább tudunk lépni a játékokra.
+Az első verzió két játékot fog tartalmazni. Ezek a játékok könnyen kezelhetőek és látványos
+felülettel rendelkeznek, hogy felkeltse a felhasználó érdeklődését.
+Az első egy Labirintus játék. Ebben a játékban Antman-t irányítjuk és a WASD gombok használatával vagy az egérrel el kell jutni 
+a labirintuson keresztül a széfig. Ha sikerül, átirányít minket a program a második játékra. Ennek a neve Mastermind.
+A játék indításkor ismerteti velünk a játékszabályokat és a játék menetét.
+Ebben a fejtörő játékban egy négy jegyű számot kell a játékosnak kitalálnia úgy, hogy két számjegy nem lehet ugyanaz és minden próbálkozásnál a játék
+tudatja velünk hány számjegyet találtunk el. Amint elkezdjük a játékot, egy percünk vagy 15 próbálkozásunk lesz kitalálni a négy számjegyből álló számkombinációt.
+A későbbiekben attól függően, hogy mennyire lesz sikeres a projektünk, a következő fejlesztéseket szeretnénk
+végrehajtani.
+
+Labirintus:
+-Több pálya hozzáadása
+-Nehézségi szintek hozzáadaása.
+
+Mastermind:
+-Egy toplista ami elmenti, hogy a játékosoknak hány másodperc alatt sikerült rájönni a számra.
+
+4. Jelenlegi üzleti folyamatok
+A mai világban nem használjuk ki a már meglévő technológiákat arra, hogy a tanulást és a készségeink fejlesztését sokkal szórakoztatóbbá és interaktívabbá tegyük. 
+A jelenlegi világban a fiatalok egyre kevésbé hajlandóak a "klasszikus" módon tanulni, ezért  alternatív módszereket kell keresnünk. Jelenleg a gyermekek 
+rengeteg játék segítségével és esetleg papíron gyakorolnak logikai feladatokat, amely a XXI. században elavultnak számít. Ez rengeteg plusz költséget jelent, 
+mely elkerülhető lenne. Az oktatóknak rengeteg időt elvesz az idejéből az, hogy mindenkire külön figyeljenek és segítsék. Illetve a feladatok megoldása papíron is
+sokkal időigényesebb, mintha különböző alkalmazásokat használnának a gyerekek. Mindezt összevetve a feladatok digitális formában időt, pénzt és energiát spórolnak meg.
+
+5. Igényelt üzleti folyamatok
+
+A megrendelő véleménye az, hogy egy labirintus illetve egy mastermind nevű játék sokat javithat
+az gyerekek koncetrációján. Követelménye, hogy a játékok közötti navigáció bármikor lehetséges legyen.
+
+-Labirintus:
+Az interneten fellelhető labirintusokat eléggé
+monotonnak találja, ugyanis mindig ugyanazt a pályát kell végig vinni újra és újra. Szüksége van a legtöbb online labirintus játékból hiányzó érintőképernyős/egér kattintásos vezérlésre, arra az esetre ha nem lenne elérhető a billenytűzet.
+Illetve azt szeretné, hogy egy egyszerű 3d-s vagy 2d-s objektum irányítása helyett valami érdekesebb a figyelem felkeltésére alkalmas dolgot irányíthassunk. A labirintus végén legyen egy széf ami átirányít a másik játékra.
+
+-Mastermind:
+Mastermindban ügyfelünknek az felelne meg, ha egy 4 jegyű számot kellene kitalálni 15 próbálkozásból, melyre 1 perc állna rendelkezésre. A játékos annyi segitséget kapna, hogy láthatja hány szám van jó helyen, illetve azt hogy hány darab szám szerepel a sorozatban, de rossz helyre írtuk azokat. Lehetőség szerint ha kitaláltuk a kódot az oldal kérdezzen rá akarunk-e újra játszani.
+
+-Modell:
+Kezdőoldal 	-> Labirintus -> célba érve 	-> Mastermind
+		-> Mastermind -> kód feltörve	-> Labirintus
+
+Labirintus<->Mastermind<->Kezdőoldal<->Labirintus //minden elérhető mindenhonnan
