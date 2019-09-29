@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu-HU">
+  <head>
+		<!--script, css és az oldal ikonjának importálása-->
+    <link rel="stylesheet" type="text/css" href="../styles/maze.css">
+	<link rel="shortcut icon" href="../images/antman.png"/>
+    <meta charset="UTF-8">
+    <script src="../scripts/maze.js"></script>
+    <title>Labirintus</title>
+  </head>
+<body onload="onLoad();">
+	<header id="header" > 
+	
+	<!--A menü felülete-->
+	<div class="navbar" id="menu">
+		<a href="../mainpage.html">Főoldal</a>
+		<!--Kattintható lenyíló fül (dropdown button) a navigációhoz-->
+		<div class="dropdown">
+			<button class="dropbtn" >Játékok
+				<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="maze.html">Labirintus</a>
+					<a href="mastermind.html">Mastermind</a>
+				</div> 
+		</div>
+	</div>
+  	</header>
+	<!--Rövid leírás a játékról-->
+    <h2>Labirintus</h2>
+		<h3>Juss el a széfhez! W,A,S,D használatával vagy a nyilakra kattintva mozoghatsz.</h3>
+	<div id="content">
+	<!--navigálásra szolgáló gombok és a labirintus(középen) egy táblában elhelyezve a jobb átláthatóság kedvéért-->
+	<table>
+	<tr>	<td></td>																<td><button id="up"><i class="fa fa-arrow-up"></i><br></button></td>		<td></td>	</tr>
+	<tr>	<td><button id="left"><i class="fa fa-arrow-left"></i></button></td>	<td><canvas id="mainForm"></canvas></td>								<td><button id="right"><i class="fa fa-arrow-right"></i></button></td>	</tr>
+	<tr>	<td></td>																<td><button id="down"><br><i class="fa fa-arrow-down"></i></button></td>	<td></td>	</tr>
+	
+	</table>
+	
+    </div>
+	<footer>
+    	<!--visszairányítás a főoldalra-->
+		<button><a href="../mainpage.html"><i class="fa fa-home"></i></a></button>
+    </footer>
+  </body>
+</html>
