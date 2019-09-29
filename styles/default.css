@@ -86,3 +86,112 @@
   display: block;
   text-align: left;
 }
+
+.dropdown-content a:hover {
+	
+	background-color: transparent;
+    color: darkred; 
+	text-shadow: 0px 2px 3px rgba(0,0,0,0.8);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+    color: red;
+	text-shadow: 0px 2px 3px rgba(0,0,0,0.8);
+}
+
+
+
+body{
+	background-image: url("../images/background.jpg");
+
+	background-attachment: fixed;
+	background-size:cover;
+	text-shadow: 2px 8px 6px 2px rgba(0,0,0,0.2);
+	background-color: black;
+	color:white;
+	margin:0px;
+	margin-top:0px;
+	padding:0px;
+	padding-top:0px;
+	padding:0px;
+	font-size:14pt;
+	font-family: font-awesome;
+}
+canvas{
+	float: center;
+}
+header{
+	padding-bottom:2%;
+	height:14%;
+	width:100%;
+	top:0px;
+}
+li{
+	margin-left:5%;
+}
+table{
+	text-align:left;
+	background-color: transparent;
+	float: center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+	
+}
+h1{
+	color: red;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+h2{
+	text-align: center;
+	color: red;
+}
+h3{
+	font-size: 16pt;
+	color: red;
+}
+footer{
+	text-align: center;
+	float:center;
+	color: red;
+	margin-top: 10%;
+	padding-top:2%;
+	padding-bottom:2%;
+}
+button{
+	text-align:center;
+	float:center;
+	background: transparent;
+	color:red;
+	text-shadow: 2px 8px 6px 2px rgba(0,0,0,0.8);
+	border: none;
+	font-size:24px;
+}
+p {
+	text-align: left;
+	margin-top: 4%;
+	margin-bottom: 5%;
+}
+a{
+	text-align:left;
+}
+a:link {
+    color: red;
+	text-shadow: 2px 8px 6px 2px rgba(0,0,0,0.8);
+}
+a:visited {
+    color: red;
+	text-shadow: 2px 8px 6px 2px rgba(0,0,0,0.8);
+}
+a:hover {
+    color: red;
+	text-shadow: 2px 8px 6px 2px rgba(0,0,0,0.8);
+}
+a:active {
+    color: red;
+	text-shadow: 2px 8px 6px 2px rgba(0,0,0,0.8);
+}
