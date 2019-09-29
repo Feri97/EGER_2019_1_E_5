@@ -1,0 +1,16 @@
+@import url("default.css");
+
+
+#mainForm {
+	text-align: center;
+	float: center
+}
+
+table{
+	margin-top:5%;
+	
+}
+
+tbody, tr, td , h3{
+	text-align: center;
+}
