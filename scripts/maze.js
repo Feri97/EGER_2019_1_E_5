@@ -266,6 +266,133 @@ function onKeyDown(event) {
 }
 
 
+//nyilakkal navigálás + láthatóságuk a játékos falakhoz viszonyított helyzetétől függően
+function up(event) {
+    if (!maze.cells[player.col][player.row].northWall) {
+        player.row -= 1;
+		maze.redraw();
+		if (!maze.cells[player.col][player.row].westWall) {
+		document.getElementById("left").style.visibility = "visible";
+		}
+		else{
+			document.getElementById("left").style.visibility = "hidden";
+		}
+		if (!maze.cells[player.col][player.row].southWall) {
+			document.getElementById("down").style.visibility = "visible";
+		}
+		else{
+			document.getElementById("down").style.visibility = "hidden";
+		}
+		if (!maze.cells[player.col][player.row].eastWall) {
+			document.getElementById("right").style.visibility = "visible";
+		}
+		else{
+			document.getElementById("right").style.visibility = "hidden";
+		}
+		if (!maze.cells[player.col][player.row].northWall) {
+			document.getElementById("up").style.visibility = "visible";
+		}
+		else{
+			document.getElementById("up").style.visibility = "hidden";
+		}
+	}
+}
+
+function left(event) {
+    if (!maze.cells[player.col][player.row].westWall) {
+        player.col -= 1;
+		maze.redraw();
+		if (!maze.cells[player.col][player.row].westWall) {
+		document.getElementById("left").style.visibility = "visible";
+		}
+		else{
+			document.getElementById("left").style.visibility = "hidden";
+		}
+		if (!maze.cells[player.col][player.row].southWall) {
+			document.getElementById("down").style.visibility = "visible";
+		}
+		else{
+			document.getElementById("down").style.visibility = "hidden";
+		}
+		if (!maze.cells[player.col][player.row].eastWall) {
+			document.getElementById("right").style.visibility = "visible";
+		}
+		else{
+			document.getElementById("right").style.visibility = "hidden";
+		}
+		if (!maze.cells[player.col][player.row].northWall) {
+			document.getElementById("up").style.visibility = "visible";
+		}
+		else{
+			document.getElementById("up").style.visibility = "hidden";
+		}
+	}
+}
+
+function right(event) {
+    if (!maze.cells[player.col][player.row].eastWall) {
+        player.col += 1;
+		maze.redraw();
+		if (!maze.cells[player.col][player.row].westWall) {
+		document.getElementById("left").style.visibility = "visible";
+		}
+		else{
+			document.getElementById("left").style.visibility = "hidden";
+		}
+		if (!maze.cells[player.col][player.row].southWall) {
+			document.getElementById("down").style.visibility = "visible";
+		}
+		else{
+			document.getElementById("down").style.visibility = "hidden";
+		}
+		if (!maze.cells[player.col][player.row].eastWall) {
+			document.getElementById("right").style.visibility = "visible";
+		}
+		else{
+			document.getElementById("right").style.visibility = "hidden";
+		}
+		if (!maze.cells[player.col][player.row].northWall) {
+			document.getElementById("up").style.visibility = "visible";
+		}
+		else{
+			document.getElementById("up").style.visibility = "hidden";
+		}
+	}
+}
+
+function down(event) {
+    if (!maze.cells[player.col][player.row].southWall) {
+        player.row += 1;
+		maze.redraw();
+		if (!maze.cells[player.col][player.row].westWall) {
+			document.getElementById("left").style.visibility = "visible";
+		}
+		else{
+			document.getElementById("left").style.visibility = "hidden";
+		}
+		if (!maze.cells[player.col][player.row].southWall) {
+			document.getElementById("down").style.visibility = "visible";
+		}
+		else{
+			document.getElementById("down").style.visibility = "hidden";
+		}
+		if (!maze.cells[player.col][player.row].eastWall) {
+			document.getElementById("right").style.visibility = "visible";
+		}
+		else{
+			document.getElementById("right").style.visibility = "hidden";
+		}
+		if (!maze.cells[player.col][player.row].northWall) {
+			document.getElementById("up").style.visibility = "visible";
+		}
+		else{
+			document.getElementById("up").style.visibility = "hidden";
+		}
+	}
+}
+
+
+
 function redirect() //Átirányit a mastermindra ok esetén vagy újra generálja az egész labirintust
 {
   var r = confirm("Nyomj OK-t ha tovább akarsz menni a mastermindra. Ha viszont újra akarsz játszani a labirintussal akkor nyomj a mégse gombra");
