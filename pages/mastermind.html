@@ -25,5 +25,26 @@
 		</div>
 	</div>
   </header>
+   <main>
+    <h2>Mastermind</h2>
+	<div id="content">
+		<!--Egy textoutput, hogy visszajelzést kapjunk a játék állapotáról-->
+		<textarea id="txaOutputWindow" rows="20" cols="55" readonly="readonly" placeholder="A széf 4 jegyű számkóddal nyitható, melynek számjegyei 1-9 közé esnek, és nincs ismétlődés közöttük.Találd ki az alapján, hogy minden próbálkozásra annyit segítek, hogy hány számjegy van a helyén, és hány, amely szerepel benne, de nem a helyén! 15 lehetőséged és 1 perded van megfejteni a kódot."></textarea>
+		<!--4db input mező a számkombináció beviteléhez és egy gomb amivel jóváhagyjuk azt-->
+		<form name="bevitel" id="bevi" onSubmit="parse(); return false;">
+			<input type="text" name="mezo0" id="txtGuessPosn0" maxlength="1" size="1" required="required" oninput="timehelper()" onKeyup="autotab(this, document.bevitel.mezo1)" />
+			<input type="text" name="mezo1" id="txtGuessPosn1" maxlength="1" size="1" required="required" onKeyup="autotab(this, document.bevitel.mezo2)" />
+			<input type="text" name="mezo2" id="txtGuessPosn2" maxlength="1" size="1" required="required" onKeyup="autotab(this, document.bevitel.mezo3)"/>
+			<input type="text" name="mezo3" id="txtGuessPosn3" maxlength="1" size="1" required="required" onKeyup="autotab(this, document.bevitel.mezo0)"/>
+			<input type="submit" value="Ellenőrizd" onClick="clear()"/>
+		</form>
+		<span id="timer"></span>
+	</div>
+</main>
+<footer>
+<!--visszairányítás a főoldalra-->
+<button><a href="../mainpage.html"><i class="fa fa-home"></i></a></button>
+
+</footer>
 	</body>
 </html>
