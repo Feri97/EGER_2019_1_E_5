@@ -198,12 +198,21 @@ class Maze {
 	
 	context.drawImage(img1,(player.col * this.cellSize) + 2, (player.row * this.cellSize) + 2, this.cellSize - 4, this.cellSize - 4) 
 	// karakter újrarajzolása
-	
+	finish(); //ellenőrzés a játék befejeztéről
 	}
 
 
 }
 
+function finish() //finish metódus érzékeli azt ha a karakter elérte a célt, és meghivja az redirect metódust fél másodperces késésel. E metódust bármely gomb lenyomása aktiválja
+{
+	var pos =player.col+player.row; 
+	if (pos == 28)// ellenőrzi, hogy célba értünk-e (28 a labirintus utolsó sorának és oszlopának összege)
+	{
+		console.log("gotcha");
+		setTimeout(redirect,500);
+	}
+}
 
 function onLoad() {
 	//betöltéskor példányosítja a labirintust, eventek kezelése
