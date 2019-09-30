@@ -1,0 +1,20 @@
+Teszt jegyzõkönyv 
+
+Tesztelési platform: Windows 10 /Google Chrome Ver:77.0.3865.90 (Hivatalos verzió) (64 bites)
+
+1. Teszt fõoldal
+	A html oldal sikresen betöltõdik a css-el együtt. A fõoldalról könnyedén megnyitódik a labirintus és a mastermind oldala.
+
+2.Teszt labirintus
+	Ahogy a fõoldalnál itt is sikeresen betõltödik a html és a css, illetve javascript pálya és gombok is megjelennek.
+	W,A,S,D gombokkal való irányitás mûködik, a karakter mozog. Pálya mellett megjelenõ irányitó gombok mûködnek, avval is 
+	tökéletesen mozgatható a karakter, illetve csak azok a gombok jelennek meg amerre csak aktuálisan tud mozogni a karakter.
+	Pálya újragenerálsa, minden újbóli betöltésnél megtörtönik. Oldal alján lévõ home gomb szintén mûködik. Ha a labirintus végén
+	van a karakter, akkor alert megjelenik, ok esetén sikeresen átirányit a mastermindra, mégse esetén pedig átirányit a mastermindra.
+
+3.Teszt mastermind
+	HTML, javascript, és css dolgok rendesen betöltõdnek. Elsõ mezõbe való írás alkalmával a visszaszámlás elindul 1:00-ról.
+	Egy mezõbe egyszerre csak egy dolgot enged írni, illetve ha beirtunk egy számot, akkor automatikus tovább lép a rákövetkezõ
+	mezõbe. Ellenõrizd gomb lenyomása után, a mezõk feletti dobozban megjelenik az éppen megadott szám, hányadik tipp és mennyi
+	van belõle jó helyen. 1 perc leteltével vagy 15 próbálkozási lehetõség után, megjelenik egy figyelmeztetés. Ok esetén vissza visz
+	a labirintusra mégse esetén pedig újra tölti az oldalt. 15 próbálkozás után a helyes megoldást a dobozba kiírja. Home gomb szintén mûködik.
