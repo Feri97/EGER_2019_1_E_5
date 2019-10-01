@@ -1,0 +1,12 @@
+Tesztelt böngészõk: Opera, Vivaldi - legújabb verziók
+
+Labirintus:
+	-A labirintusban az utolsó elõtti celláknál érzékeli a játék teljesítését, akkor is ha visszafelé lépünk. *javítva
+	-Ha belépünk az utolsó cellába a program csak azután érzékeli azt, hogy kiléptünk onnan. *javítva
+
+Mastermind:
+	-Nem mûködik az autotab a beviteli mezõk közt. *javítva
+	-Teljesítést követõen nem resetelõdik az idõkorlát. *javítva
+	-Ha kifogytunk a lehetõségekbõl új játék kezdésekor nem indul újra az idõkorlát. *javítva
+
+2019.9.28.
